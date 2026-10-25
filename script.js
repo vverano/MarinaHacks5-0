@@ -5,7 +5,7 @@ let button4 = document.getElementById("num4");
 
 let timeron;
 let timer;
-//let init = 3600000;
+let init = 3600000;
 init = 2000;
 let secs;
 let min;
@@ -31,8 +31,7 @@ function start(){
     
     timeron = true;
     timer = setInterval(() => {
-    init-=1;
-    //init--;
+    init--;
     const min = Math.floor(init / 60000);
     const secs = init % 60;
     if (init > 0){
