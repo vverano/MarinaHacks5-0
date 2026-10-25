@@ -1,0 +1,48 @@
+html {
+background-color:#b4cced; 
+background-image: url("img/bg.gif");
+background-size: 140% auto;
+
+}
+
+button {
+
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-style: initial;
+  border-radius: 12px;
+  font-weight: bold;
+  color: plum;
+  border-color: rgb(176, 173, 173);
+  font-style:comic;
+}
+    
+button:hover{
+    border-color: rgb(155, 153, 153);
+    color: rgb(189, 137, 189);
+}
+
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  opacity: 0.6;
+  text-align: center; 
+ font-size: large;
+ font-style: comic;
+}
+
+#cd{
+    font-size: 100px;
+}
+  
+p {
+  font-family: fuzzy bubble, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  color:rgb(245, 245, 245);
+}
