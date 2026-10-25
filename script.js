@@ -6,7 +6,6 @@ let button4 = document.getElementById("num4");
 let timeron;
 let timer;
 let init = 3600000;
-init = 2000;
 let secs;
 let min;
 let ispaused = false;
